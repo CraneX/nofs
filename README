@@ -1,1 +1,11 @@
-MONO 
+
+A Framework to Expose an Object-Oriented Domain Model as a File System
+
+msbuild nofs
+
+example:
+
+nofs.stocks\bin\Release\Nofs.Net.exe
+
+
+

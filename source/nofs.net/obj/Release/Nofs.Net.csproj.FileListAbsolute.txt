@@ -1,0 +1,14 @@
+C:\Work\luc\course\IndenpendPrj\Main\nofs.net\bin\Release\Nofs.Net.exe.config
+C:\Work\luc\course\IndenpendPrj\Main\nofs.net\bin\Release\Nofs.Net.exe
+C:\Work\luc\course\IndenpendPrj\Main\nofs.net\bin\Release\Nofs.Net.pdb
+C:\Work\luc\course\IndenpendPrj\Main\nofs.net\bin\Release\Db4objects.Db4o.dll
+C:\Work\luc\course\IndenpendPrj\Main\nofs.net\bin\Release\DokanNet.dll
+C:\Work\luc\course\IndenpendPrj\Main\nofs.net\bin\Release\log4net.dll
+C:\Work\luc\course\IndenpendPrj\Main\nofs.net\bin\Release\Mono.Fuse.dll
+C:\Work\luc\course\IndenpendPrj\Main\nofs.net\bin\Release\Mono.Posix.dll
+C:\Work\luc\course\IndenpendPrj\Main\nofs.net\bin\Release\NConsoler.dll
+C:\Work\luc\course\IndenpendPrj\Main\nofs.net\bin\Release\DokanNet.pdb
+C:\Work\luc\course\IndenpendPrj\Main\nofs.net\bin\Release\log4net.xml
+C:\Work\luc\course\IndenpendPrj\Main\nofs.net\obj\Release\ResolveAssemblyReference.cache
+C:\Work\luc\course\IndenpendPrj\Main\nofs.net\obj\Release\Nofs.Net.exe
+C:\Work\luc\course\IndenpendPrj\Main\nofs.net\obj\Release\Nofs.Net.pdb

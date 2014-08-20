@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{77635076-C8B5-4CC2-A4DF-AABFB4E7F368}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Nofs.Net</RootNamespace>
+    <AssemblyName>Nofs.Net</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Db4objects.Db4o">
+      <HintPath>..\common\libs\db4o\Db4objects.Db4o.dll</HintPath>
+    </Reference>
+    <Reference Include="DokanNet, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\common\libs\dokan\DokanNet.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\common\libs\log4net\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Fuse, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\common\libs\mono.fuse\Mono.Fuse.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Posix">
+      <HintPath>..\common\libs\mono\Mono.Posix.dll</HintPath>
+    </Reference>
+    <Reference Include="NConsoler">
+      <HintPath>..\common\libs\NConsoler\NConsoler.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnnotationDriver\ExecutableAttribute.cs" />
+    <Compile Include="AnnotationDriver\NeedsContainerAttribute.cs" />
+    <Compile Include="AnnotationDriver\NeedsContainerManagerAttribute.cs" />
+    <Compile Include="AnnotationDriver\ProvidesNameAttribute.cs" />
+    <Compile Include="AnnotationDriver\RootFolderObjectAttribute.cs" />
+    <Compile Include="AnnotationDriver\DomainObjectAttribute.cs" />
+    <Compile Include="AnnotationDriver\FolderObjectAttribute.cs" />
+    <Compile Include="Annotations\IDomainObject.cs" />
+    <Compile Include="Annotations\IExecutable.cs" />
+    <Compile Include="Annotations\IFolderObject.cs" />
+    <Compile Include="Annotations\INeedsContainer.cs" />
+    <Compile Include="Annotations\INeedsContainerManager.cs" />
+    <Compile Include="Annotations\IProvidesCreateTime.cs" />
+    <Compile Include="Annotations\IProvidesGID.cs" />
+    <Compile Include="Annotations\IProvidesLastAccessTime.cs" />
+    <Compile Include="Annotations\IProvidesLastModifiedTime.cs" />
+    <Compile Include="Annotations\IProvidesMode.cs" />
+    <Compile Include="Annotations\IProvidesName.cs" />
+    <Compile Include="Annotations\IProvidesUID.cs" />
+    <Compile Include="Annotations\IRootFolderObject.cs" />
+    <Compile Include="Cache\DirectFileCache.cs" />
+    <Compile Include="Cache\ExecutableBuilder.cs" />
+    <Compile Include="Cache\FileCache.cs" />
+    <Compile Include="Cache\FileCacheManager.cs" />
+    <Compile Include="Cache\TranslatorFactory.cs" />
+    <Compile Include="Cache\XmlRepresentationBuilder.cs" />
+    <Compile Include="Common.Interfaces\Cache\IFolderReference.cs" />
+    <Compile Include="Common.Interfaces\Cache\IRepresentationBuilder.cs" />
+    <Compile Include="Common.Interfaces\Cache\ITranslatorStrategy.cs" />
+    <Compile Include="Common.Interfaces\Cache\IFileCache.cs" />
+    <Compile Include="Common.Interfaces\Cache\IFileCacheManager.cs" />
+    <Compile Include="Common.Interfaces\Cache\IKeyCache.cs" />
+    <Compile Include="Common.Interfaces\Cache\IKeyIdentifier.cs" />
+    <Compile Include="Common.Interfaces\Cache\IPersistenceFactory.cs" />
+    <Compile Include="Cache\SerializerBuilder.cs" />
+    <Compile Include="Common.Interfaces\Domain\FileObjectType.cs" />
+    <Compile Include="Common.Interfaces\Domain\FuseFtypeConstants.cs" />
+    <Compile Include="Common.Interfaces\Domain\GenerationType.cs" />
+    <Compile Include="Common.Interfaces\Domain\IDomainObject.cs" />
+    <Compile Include="Common.Interfaces\Domain\IExtendedAttribute.cs" />
+    <Compile Include="Common.Interfaces\Domain\IFileObject.cs" />
+    <Compile Include="Common.Interfaces\Domain\IFileObjectFactory.cs" />
+    <Compile Include="Common.Interfaces\Domain\IFileObjectStat.cs" />
+    <Compile Include="Common.Interfaces\Domain\IMethodInvocation.cs" />
+    <Compile Include="Common.Interfaces\Domain\IMethodParameter.cs" />
+    <Compile Include="Common.Interfaces\ILogManager.cs" />
+    <Compile Include="Common.Interfaces\Library\IDomainObjectContainer.cs" />
+    <Compile Include="Common.Interfaces\Library\IDomainObjectContainerManager.cs" />
+    <Compile Include="Common.Interfaces\Library\IListensToEvents.cs" />
+    <Compile Include="Common.Interfaces\Library\IObjectWithID.cs" />
+    <Compile Include="Common.Interfaces\Library\IProvidesUnstructuredData.cs" />
+    <Compile Include="Common.Interfaces\Library\IStatMapper.cs" />
+    <Compile Include="Common.Interfaces\Library\IWeakReference.cs" />
+    <Compile Include="Domain\BaseDomainObject.cs" />
+    <Compile Include="Domain\CustomStat.cs" />
+    <Compile Include="Domain\ExtendedAttribute.cs" />
+    <Compile Include="Domain\FileObject.cs" />
+    <Compile Include="Domain\FileObjectStat.cs" />
+    <Compile Include="Domain\MethodInvocation.cs" />
+    <Compile Include="Domain\MethodParameter.cs" />
+    <Compile Include="Domain\StatLazyLoader.cs" />
+    <Compile Include="Exception\NoFSDuplicateNameException.cs" />
+    <Compile Include="Exception\NoFSPathInvalidException.cs" />
+    <Compile Include="Exception\NoFSPathIsNotAFolderException.cs" />
+    <Compile Include="Exception\NoFSSerializationException.cs" />
+    <Compile Include="Exception\FuseErrno.cs" />
+    <Compile Include="Exception\FuseException.cs" />
+    <Compile Include="Fuse\FuseSizeSetter.cs" />
+    <Compile Include="Fuse\IDirHandler.cs" />
+    <Compile Include="Fuse\IExtendedAttributeHandler.cs" />
+    <Compile Include="Fuse\IFileDataHandler.cs" />
+    <Compile Include="Fuse\IFileHandler.cs" />
+    <Compile Include="Fuse\IFilesystem.cs" />
+    <Compile Include="Fuse\IFsyncHandler.cs" />
+    <Compile Include="Fuse\IFuseDirFiller.cs" />
+    <Compile Include="Fuse\IFuseObjectTree.cs" />
+    <Compile Include="Fuse\IFuseGetattrSetter.cs" />
+    <Compile Include="Fuse\IFuseOpenSetter.cs" />
+    <Compile Include="Fuse\IFuseStatfsSetter.cs" />
+    <Compile Include="Fuse\ILinkHandler.cs" />
+    <Compile Include="Fuse\Impl\AttributeAccessor.cs" />
+    <Compile Include="Fuse\Impl\BaseFileSystem.cs" />
+    <Compile Include="Fuse\Impl\ClassLoader.cs" />
+    <Compile Include="Fuse\Impl\DirHandler.cs" />
+    <Compile Include="Fuse\Impl\DokanFileSystem.cs" />
+    <Compile Include="Fuse\Impl\DomainObjectCollectionHelper.cs" />
+    <Compile Include="Fuse\Impl\ExtendedAttributeHandler.cs" />
+    <Compile Include="Fuse\Impl\FileDataHandler.cs" />
+    <Compile Include="Fuse\Impl\FileHandler.cs" />
+    <Compile Include="Fuse\Impl\FileObjectFactory.cs" />
+    <Compile Include="Fuse\Impl\FsyncHandler.cs" />
+    <Compile Include="Fuse\Impl\FuseMode.cs" />
+    <Compile Include="Fuse\Impl\FuseMount.cs" />
+    <Compile Include="Fuse\Impl\LinkHandler.cs" />
+    <Compile Include="Fuse\Impl\LockManager.cs" />
+    <Compile Include="Fuse\Impl\LogManager.cs" />
+    <Compile Include="Fuse\Impl\NoFSFuseDriver.cs" />
+    <Compile Include="Fuse\Impl\PathTranslator.cs" />
+    <Compile Include="Nofs4Net.cs" />
+    <Compile Include="Utils\MemoryBuffer.cs" />
+    <Compile Include="Utils\PathParser.cs" />
+    <Compile Include="Utils\PathUtil.cs" />
+    <Compile Include="Fuse\Impl\StatHandler.cs" />
+    <Compile Include="Utils\StreamUtil.cs" />
+    <Compile Include="Utils\StringTokenizer.cs" />
+    <Compile Include="Fuse\INoFSFuseDriver.cs" />
+    <Compile Include="Fuse\IStatHandler.cs" />
+    <Compile Include="Fuse\XattrLister.cs" />
+    <Compile Include="Fuse\XattrSupport.cs" />
+    <Compile Include="Fuse\XattrSupportType.cs" />
+    <Compile Include="nofs.Db4o\DomainObjectContainer.cs" />
+    <Compile Include="nofs.Db4o\DomainObjectContainerManager.cs" />
+    <Compile Include="nofs.Db4o\KeyIdentifier.cs" />
+    <Compile Include="nofs.Db4o\WeakReference.cs" />
+    <Compile Include="nofs.metadata.interfaces\IAttributeAccessor.cs" />
+    <Compile Include="nofs.metadata.interfaces\IDomainObjectProperties.cs" />
+    <Compile Include="nofs.metadata.interfaces\IFolderObjectProperties.cs" />
+    <Compile Include="nofs.metadata.interfaces\IGetterSetterPair.cs" />
+    <Compile Include="nofs.metadata.interfaces\IMetadataFactory.cs" />
+    <Compile Include="nofs.metadata.interfaces\IMethodFilter.cs" />
+    <Compile Include="nofs.metadata.interfaces\INoFSClassLoader.cs" />
+    <Compile Include="nofs.metadata.interfaces\MarkerTypes.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\StringUtil.cs" />
+    <Compile Include="Utils\XmlUtil.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy $(SolutionDir)common\libs\mono.fuse\Mono.Fuse.dll.config $(TargetDir) /Y /D
+xcopy $(SolutionDir)common\libs\mono.fuse\libMonoFuseHelper.la $(TargetDir) /Y /D
+xcopy $(SolutionDir)common\libs\mono.fuse\libMonoFuseHelper.so $(TargetDir) /Y /D
+xcopy $(SolutionDir)nofs-addressbook\bin\Debug\nofs-addressbook.dll $(TargetDir) /Y /D
+xcopy $(SolutionDir)nofs.stocks\bin\Debug\nofs.stocks.dll $(TargetDir) /Y /D
+</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

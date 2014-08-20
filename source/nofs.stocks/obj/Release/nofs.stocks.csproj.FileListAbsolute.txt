@@ -1,0 +1,15 @@
+C:\Work\luc\course\IndenpendPrj\Main\nofs.stocks\bin\Release\nofs.stocks.dll
+C:\Work\luc\course\IndenpendPrj\Main\nofs.stocks\bin\Release\nofs.stocks.pdb
+C:\Work\luc\course\IndenpendPrj\Main\nofs.stocks\bin\Release\Nofs.Net.exe
+C:\Work\luc\course\IndenpendPrj\Main\nofs.stocks\bin\Release\DokanNet.dll
+C:\Work\luc\course\IndenpendPrj\Main\nofs.stocks\bin\Release\Mono.Fuse.dll
+C:\Work\luc\course\IndenpendPrj\Main\nofs.stocks\bin\Release\log4net.dll
+C:\Work\luc\course\IndenpendPrj\Main\nofs.stocks\bin\Release\Mono.Posix.dll
+C:\Work\luc\course\IndenpendPrj\Main\nofs.stocks\bin\Release\Db4objects.Db4o.dll
+C:\Work\luc\course\IndenpendPrj\Main\nofs.stocks\bin\Release\NConsoler.dll
+C:\Work\luc\course\IndenpendPrj\Main\nofs.stocks\bin\Release\Nofs.Net.pdb
+C:\Work\luc\course\IndenpendPrj\Main\nofs.stocks\bin\Release\DokanNet.pdb
+C:\Work\luc\course\IndenpendPrj\Main\nofs.stocks\bin\Release\log4net.xml
+C:\Work\luc\course\IndenpendPrj\Main\nofs.stocks\obj\Release\ResolveAssemblyReference.cache
+C:\Work\luc\course\IndenpendPrj\Main\nofs.stocks\obj\Release\nofs.stocks.dll
+C:\Work\luc\course\IndenpendPrj\Main\nofs.stocks\obj\Release\nofs.stocks.pdb
